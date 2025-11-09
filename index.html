@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flappy Bird Clone</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="gameContainer">
+    <canvas id="gameCanvas" width="400" height="600"></canvas>
+    <div id="gameOver" class="hidden">
+      <h2>💀 Game Over 💀</h2>
+      <p id="scoreText"></p>
+      <button id="restart">Restart</button>
+    </div>
+  </div>
+
+  <audio id="flapSound" src="https://cdn.pixabay.com/download/audio/2022/03/15/audio_c9b37b69ff.mp3?filename=wing-flap-125012.mp3"></audio>
+  <audio id="hitSound" src="https://cdn.pixabay.com/download/audio/2021/09/14/audio_39f0f66a18.mp3?filename=hit-40822.mp3"></audio>
+  <audio id="bgMusic" src="https://cdn.pixabay.com/download/audio/2022/03/03/audio_bec22dc9cb.mp3?filename=happy-beat-128908.mp3" loop></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
